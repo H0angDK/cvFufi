@@ -44,7 +44,7 @@ const App = () => {
   return (
     <div className="w-2/3 mx-auto mt-3 pb-4 sm:w-full sm:p-4">
       <div className="flex items-center gap-3 lg:flex-wrap">
-        <div className="w-48 h-48 md:hidden">
+        <div className="w-32 h-48 md:hidden">
           <img src={face} className="w-full h-full" />
         </div>
 
