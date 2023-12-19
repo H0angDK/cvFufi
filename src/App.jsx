@@ -42,7 +42,7 @@ const projects = [
 ];
 const App = () => {
   return (
-    <div className="w-2/3 mx-auto mt-3 py-3 sm:w-full sm:p-4">
+    <div className="w-2/3 mx-auto mt-3 pb-4 sm:w-full sm:p-4">
       <div className="flex items-center gap-3 lg:flex-wrap">
         <div className="w-56 h-56 md:hidden">
           <img src={face} className="w-full h-full" />
@@ -106,7 +106,13 @@ const App = () => {
             </h2>
             <div className="flex flex-col">
               <span>
-                <strong className="text-lg">hardskills:</strong> none;
+                <strong className="text-lg">hardskills:</strong> 
+                <ul className="list-disc px-6">
+                  <li>Figma</li>
+                  <li>Photoshop</li>
+                  <li>Illustrator</li>
+                  <li>Sketch</li>
+                </ul>
               </span>
               <div>
                 <strong className="text-lg">softskills:</strong>
